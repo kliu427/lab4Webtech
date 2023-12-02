@@ -7,12 +7,8 @@ const Home = () => {
         <div className="home-page">
           <h1>Welcome to Superhero Search!</h1>
           <div className="options">
-            <Link to="/create-account" className="option-link">
-              Create Account
-            </Link>
-            <Link to="/sign-in" className="option-link">
-              Sign In
-            </Link>
+            <Link to="/createaccount" placeholder='Create Account'/>
+            <Link to="/signin" placeholder='Sign In'/>
           </div>
           <div className="search-bar">
             <input type="text" placeholder="Search superheroes..." />
